@@ -2,7 +2,7 @@
 ### <div align="center">Hi 👋, I'm Tanya, I`m QA Engeene 👩‍💻</div>  
   
 
-- ⚡ Here I do my homework on the "Terminal" ⚡  
+- ⚡ Here are my skills on the "Terminal" ⚡  
   
 
 <br/>  
