@@ -1,25 +1,46 @@
 # Terminal
+### <div align="center">Hi 👋, I'm Tanya, I`m QA Engeene 👩‍💻</div>  
+  
 
-Cd grop_33
+- ⚡ Here I do my homework on the "Terminal" ⚡  
+  
 
-Mkdir dir_1 dir_2 dir_3
+<br/>  
 
-Cd dir_1
+<table><tr><td valign="top" width="33%">
 
-touch 1.txt
 
-touch 2.txt
 
-touch 3.txt
+</td><td valign="top" width="33%">
 
-touch 2.json
 
-touch 1.json
 
-mkdir dir_4 dir_5 dir_6
+</td><td valign="top" width="33%">
 
-Ls -la
 
-mv 1.txt ../dir_2/1.txt
 
-mv 1.json ../dir_3/1.json 
+</td></tr></table>  
+
+<br/>  
+
+  
+
+<br/>  
+
+  
+
+<br/>  
+
+  
+
+<br/>  
+
+  
+
+<br/>  
+
+
+<br />
+
+----
+<div align="center">Generated using <a href="https://profilinator.rishav.dev/" target="_blank">Github Profilinator</a></div>
