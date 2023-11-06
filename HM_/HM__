@@ -1,0 +1,20 @@
+1) Отправить http запрос на сервер :
+wget http://162.55.220.72:5005/terminal-hw-request
+
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13 :
+- Создаем в текстовом редакторе нужные нам команды 3, 4, 5, 6, 7, 8, 13 и сохраняем этот файл
+сd grop_33
+mkdir dir_1 dir_2 dir_3
+cd dir_1
+touch 1.txt
+touch 2.txt
+touch 3.txt
+touch 1.json
+touch 2.json
+mkdir dir_4 dir_5 dir_6
+ls -la
+mv 1.txt ../dir_2/1.txt
+mv 1.json ../dir_3/1.json 
+
+- И запускаем в терминале этот файл с командами :
+sh 123.sh
