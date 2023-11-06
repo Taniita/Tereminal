@@ -8,7 +8,7 @@ mkdir group_31
 cd group_31
 
 4. Создать 3 папки : 
-mkdir dir_1 dir_2 dir_3
+mkdir dir_1 dir_2 dir_3 или mkdir dir{1..3}
 
 5. Зайти любую папку :
 cd dir_1
