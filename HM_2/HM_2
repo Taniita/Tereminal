@@ -28,7 +28,7 @@ cat > tf_3.txt
 one
 two
 three
-esc :wq 
+^c
 
  9. Через cat добавить в текстовый файл tf_3.txt строку “the second 2” :
 cat >> tf_3.txt
