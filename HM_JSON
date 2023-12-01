@@ -1,0 +1,70 @@
+1. Создать внешний репозиторий c названием JSON :
+   - Заходим на GitHub и создаем новый репозиторий JSON.
+
+2. Клонировать репозиторий JSON на локальный компьютер :
+   - git clone SSH ссылка репозитория JSON.
+
+3. Внутри локального JSON создать файл “new.json”:
+   - cat > "new.json"
+
+4. Добавить файл под гит :
+   - git add new.json 
+
+5. Закоммитить файл :
+   - git commit -m "add new.json" 
+
+6. Отправить файл на внешний GitHub репозиторий :
+   - git push
+
+7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON :
+   - Открываем файл new.json 
+   - Записываем нужную нам информацию :
+     
+   {
+    "first_name":"Tanya",
+    "last_name":"Svechkina",
+    "father_name":"Igorevna",
+    "age":22,
+    "number of pets":0,
+    "desired_salary": 1000
+   }
+   -  Нажимаем клавиши Control C - для сохранения.
+
+8. Отправить изменения на внешний репозиторий :
+   - git add -am "modify new.json"
+
+9. Создать файл preferences.json
+   - cat > "preferences.json"
+
+10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON :
+   - Открываем файл preferences.json 
+   - Записываем нужную нам информацию :
+   {
+    "favourite_film":"The Fast and the Furious",
+    "favourite_series":"Game of Thrones",
+    "favourite_food":"spicy_food",
+    "favourite_season":"winter",
+    "What country you would like to visit":"Canada"
+   }
+
+
+11. Создать файл sklls.json добавить информацию о скилах которые будут изучены на курсе в формате JSON : 
+    - cat > "skills.json"
+    - Записываем нужную нам информацию :
+    {
+    "my_skills":"Create an external repository","Clone repository","Add file under git","Commit file","Upload a file to an external GitHub repository","Push    changes to external repository","Send 2 files  at once to an external repository"
+    }
+
+12. Отправить сразу 2 файла на внешний репозиторий :
+    - git add .
+    - git commit -m "add two files"
+    - git push
+
+13. На веб интерфейсе создать файл bug_report.json :
+    - Заходим на GitHub и создаем файл bug_report.json
+ 
+14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+17. Синхронизировать внешний и локальный репозиторий JSON :
+    - git pull
