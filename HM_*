@@ -14,7 +14,7 @@ touch 2.json
 mkdir dir_4 dir_5 dir_6
 ls -la
 mv 1.txt ../dir_2/1.txt
-mv 1.json ../dir_3/1.json 
+mv 1.json ../dir_3/1.json 
 
 - И запускаем в терминале этот файл с командами :
 sh 123.sh
