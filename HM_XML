@@ -1,0 +1,97 @@
+1. Создать внешний репозиторий c названием XML :
+   - Создаем репозитория на GitHub XML.
+
+2. Клонировать репозиторий XML на локальный компьютер :
+   - git clone SSH ссылка
+ 
+3. Внутри локального XML создать файл “new.xml” :
+   - touch "new.xml"
+
+4. Добавить файл под гит :
+   - git add "new.xml"
+   
+5. Закоммитить файл :
+   - git commit -m "new.xml"
+
+6. Отправить файл на внешний GitHub репозиторий :
+   - git push
+
+7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML :
+
+   <party>
+
+    <field name="first_name">Tanya</field>
+    <field name="last_name">Svechkina</field>
+    <field name="father_name">Igorevna</field>
+    <field name="age">22</field>
+    <field name="number_of_pets">0</field>
+    <field name="desired_salary">1000</field>
+
+   </party>
+
+8. Отправить изменения на внешний репозиторий :
+   - git add "new.xml"
+   - git commit -m "new.xml"
+   - git push
+ 
+9. Создать файл preferences.xml
+   - touch preferences.xml
+
+10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML :
+
+   <party>
+        
+    <field name="favourite_film">The_Fast_and_the_Furious</field>
+    <field name="favourite_series">Game of Thrones</field>
+    <field name="favourite_food">spicy_food</field>
+    <field name="favourite_season">winter</field>
+    <field name="What_country_you_would_like_to_visit">Canada</field>
+
+   </patry>
+
+11. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML :
+    - cat > "skills.xml"
+
+   <party>
+
+    <field name="hard_skills">Understanding of software testing and development processes</field>
+    <field name="hard_skills">Understanding_Testing_Basics</field>
+    <field name="hard_skills">Working_with_test_documentation</field>
+    <field name="hard_skills">Ability_to_write_defect_reports</field>
+    <field name="hard_skills">Knowledge_of_testing_methodologies</field>
+
+    <field name="soft_skills>Skill_to_work_in_team</field>
+    <field name="soft_skills>Friendliness_when_communicating_with_colleagues</field>
+    <field name="soft_skills>Punctuality_and_organization</field>
+    <field name="soft_skills>Ability_to_solve_complex_problems</field>
+
+   </party>
+
+12. Сделать коммит в одну строку :
+    - git add "preferences.xml"
+    - git add "skills.xml"
+    - git commit -am "add two files"
+
+13. Отправить сразу 2 файла на внешний репозиторий :
+    - git push
+
+14. На веб интерфейсе создать файл bug_report.xml :
+    - Зайти на GitHub и создаем файл bug_report.xml
+
+15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML :
+
+  <party>
+
+    <field name="Bug 1">Block</field>
+    <field name="Bug 2">Critical</field>
+    <field name="Bug 3">Poker</field>
+
+  </party>
+    
+
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+18. Синхронизировать внешний и локальный репозиторий XML :
+    - git pull
