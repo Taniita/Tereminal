@@ -33,22 +33,27 @@ three
  9. Через cat добавить в текстовый файл tf_3.txt строку “the second 2” :
 cat >> tf_3.txt
 the second 2
+^c
 
  10. Через cat добавить в текстовый файл tf_3.txt строку “the sec 2” :
 cat >> tf_3.txt 
 the sec 2
+^c
 
  11. Через cat добавить в текстовый файл tf_2.txt строку “the sec 3” :
 cat >> tf_2.txt 
 the sec 3
+^c
 
  12. Через cat добавить в текстовый файл tf_3.txt строку “the SeCoNd 2”
 cat >> tf_3.txt
 the SeCoNd 2
+^c
 
  13. Через cat добавить в текстовый файл tf_2.txt строку “the seConD 2”:
 cat tf_2.txt
 the seConD 2
+^c
 
  14. Сделать текстовый файл tf_4.txt в котором будет 15 строк :
 cat > tf_4.txt
@@ -85,7 +90,7 @@ cat > tf_5.txt
 28
 
  16. Вывести список всех файлов в папке :
-ls -a
+ls -al
 
  17. Выйти из папки inner_dir_1
 cd ..
@@ -97,7 +102,7 @@ cat inner_dir_1/tf_3.txt
 find $(pwd) -name tf_4.txt
 
  20. Отчистить файл tf_4.txt от содержимого без удаления самого файла :
-> tf_4.txt
+.> tf_4.txt or :> tf_4.txt
 or
 echo -n > tf_4.txt
 
@@ -114,10 +119,10 @@ ls | grep “sec” *
 grep -i “sec” *
 
  25. Найти строки в файлах где есть только комбинация букв “sec” в текущей папке :
-grep “<sec>” *
+grep “*sec*” 
 
  26. Найти строки в файлах где есть только комбинация букв “sec” в любом регистре в текущей папке :
-grep -i “<sec>” * 
+grep -i “*sec*”  
 
  27. Найти строки в файлах где есть комбинация букв “second” в текущей папке :
 ls | grep "second" *
