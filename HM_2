@@ -152,7 +152,7 @@ head -n 4 1.txt
 mkdir test & cat test/test.txt 
 
  36. Команда в одну строку. Переместить в любую одну папку текстовые файлы у которых в содержимом есть слово “sec” :
-find -name "*.txt" | xargs grep -rlw "sec" | xargs mv -t ./name-folder. 
+grep -lr sec . | xargs -I % mv % ./test
 
  37. Команда в одну строку. Скопировать в любую одну папку текстовые файлы у которых в содержимом есть слово “sec” :
 grep -r -l “sec” > dir_1
